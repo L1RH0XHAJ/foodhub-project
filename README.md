@@ -2,6 +2,10 @@
 
 ## Part of MIT IDSS's "Data Science and Machine Learning: Making Data-Driven Decisions" program
 
+
+Note: The project can be accessed through the provided HTML or the Jupyter Notebook file.   
+
+
 ### Context
 
 This project involves analyzing the data of a hypothetical food-ordering app called "FoodHub". The app allows the restaurants to receive

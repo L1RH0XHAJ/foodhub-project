@@ -18,3 +18,7 @@ delivering the food package to the customer. The customer can rate the order in 
 
 The goal of the project is to analyze FoodHub's data for a given period of time, in order to get a fair idea about the demand of different restaurants, as this may help them in enhancing their
 customer experience.
+
+### Techniques applied
+
+Simple data cleaning and exploratory data analysis (histograms, boxplots, etc.)  

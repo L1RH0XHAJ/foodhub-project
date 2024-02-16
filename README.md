@@ -35,10 +35,10 @@ Data cleaning and exploratory data analysis using: histograms, boxplots, barplot
 ### Dependecies 
 
 Install/import the following libraries 
-- numpy
-- pandas
-- matplotlib.pyplot
-- seaborn
+- *numpy*
+- *pandas*
+- *matplotlib.pyplot*
+- *seaborn*
 
 ### Using the code
 

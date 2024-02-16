@@ -3,9 +3,6 @@
 ## Part of MIT IDSS's "Data Science and Machine Learning: Making Data-Driven Decisions" program
 
 
-Note: The project can be accessed through the provided HTML or the Jupyter Notebook file.   
-
-
 ### Context
 
 This project involves analyzing the data of a hypothetical food-ordering app called "FoodHub". The app allows the restaurants to receive
@@ -19,6 +16,29 @@ delivering the food package to the customer. The customer can rate the order in 
 The goal of the project is to analyze FoodHub's data for a given period of time, in order to get a fair idea about the demand of different restaurants, as this may help them in enhancing their
 customer experience.
 
+### Data Dictionary
+
+- `order_id`: Unique ID of the order
+- `customer_id`: ID of the customer who ordered the food
+- `restaurant_name`: Name of the restaurant
+- `cuisine_type`: Cuisine ordered by the customer
+- `cost`: Cost of the order
+- `day_of_the_week`: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)
+- `rating`: Rating given by the customer out of 5
+- `food_preparation_time`: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's - pick-up confirmation.
+- `delivery_time`: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+
 ### Techniques applied
 
-Simple data cleaning and exploratory data analysis (histograms, boxplots, etc.)  
+Data cleaning and exploratory data analysis (histograms, boxplots, etc.)  
+
+### Dependecies 
+
+- numpy
+- pandas
+- matplotlib.pyplot
+- seaborn as sns
+
+### Using the code
+
+Please make sure to save the Jupyter Notebook (*.ipynb*) file and the dataset in the same directory.

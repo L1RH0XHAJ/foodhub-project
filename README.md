@@ -30,15 +30,16 @@ customer experience.
 
 ### Techniques applied
 
-Data cleaning and exploratory data analysis (histograms, boxplots, etc.)  
+Data cleaning and exploratory data analysis using: histograms, boxplots, barplots/countplots, heatmaps/correlation matrices, and pairplots.  
 
 ### Dependecies 
 
+Install/import the following libraries 
 - numpy
 - pandas
 - matplotlib.pyplot
-- seaborn as sns
+- seaborn
 
 ### Using the code
 
-Please make sure to save the Jupyter Notebook (*.ipynb*) file and the dataset in the same directory.
+Please make sure to save the Jupyter Notebook (*.ipynb*) file and the ***foodhub_order.csv*** dataset in the same directory.
